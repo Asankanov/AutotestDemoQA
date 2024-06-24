@@ -1,0 +1,9 @@
+
+¥
+java:S1104"]Make webElementActions a static final constant or non-public and provide accessors if needed.(®¢Ìâøÿÿÿÿ8í×¬¯ƒ2J$fe65ca52-17ba-4245-8dc5-c3e9e309d95b
+¢
+java:S1104"ZMake dropdownHelper a static final constant or non-public and provide accessors if needed.(öÂÉ¶üÿÿÿÿ8í×¬¯ƒ2J$20545030-1c95-4a5b-a2ee-40b0d6855546
+ 
+java:S1104"XMake iframeHelper a static final constant or non-public and provide accessors if needed.(‹™…‘úÿÿÿÿ8È††ûƒ2J$a8f57fa2-607f-4086-be27-5b6e375a6542
+S
+java:S1128"6Remove this unused import 'org.openqa.selenium.Alert'.(Àã¥‰8‰òşƒ2

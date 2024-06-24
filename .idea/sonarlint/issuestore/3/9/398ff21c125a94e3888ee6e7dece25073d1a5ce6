@@ -1,0 +1,15 @@
+
+…
+java:S1117;"=Rename "firstName" which hides the field declared at line 17.(ÿ¿…œùÿÿÿÿ8ÿºœÌƒ2J$9337860a-cf66-4657-a2a7-d3063ddf4756
+
+java:S1117<"<Rename "lastName" which hides the field declared at line 20.(°‹™Î8»œÌƒ2J$827f80a4-475b-4c18-94b8-2431e6fc0237
+€
+java:S6353="=Use concise character class syntax '\\D' instead of '[^0-9]'.(ß¡‚„8šü‘Ñƒ2J$6abcbefc-360e-46cc-b669-c01818ade6e1
+…
+java:S6353?"=Use concise character class syntax '\\D' instead of '[^0-9]'.(•ú¥³ûÿÿÿÿ8Íš¤Ñƒ2J$60f7080c-b812-456b-9115-b96fdc5bffc9
+
+java:S1117@">Rename "department" which hides the field declared at line 32.(ÝÂÓë8ž»œÌƒ2J$90717c7e-b1f8-4cc1-b93a-b17fb6fec957
+
+java:S1117F"7Rename "age" which hides the field declared at line 26.(–ˆ—¬ùÿÿÿÿ8ž»œÌƒ2J$ceadac67-b6df-4c3d-b2b3-816054ea6577
+‚
+java:S1117G":Rename "salary" which hides the field declared at line 29.(Ùƒ¹™øÿÿÿÿ8ž»œÌƒ2J$ca360c66-e573-46b9-b3cd-e1db8b18771c
