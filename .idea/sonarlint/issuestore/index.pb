@@ -71,3 +71,14 @@ b
 2src/main/java/com/udemyqa/helper/IframeHelper.java,b\9\b94ec98a9e6cb75c92aeff2c3972418ab407262f
 j
 :src/main/java/com/udemyqa/listener/ScreenshotListener.java,5\9\59219464849d68b3cb6aae7af29c5c6b082d8e2a
+;
+JenkinsFile,2\2\22baaa42babe40fa251079ed1e8167c0eef7a13f
+?
+smoke_suite.xml,7\7\77895988838a6d84d88d42c3f32f11e2a8e9a394
+D
+regression_suite.xml,c\8\c8e932310e6d11a3d4e6818c71e8428e42d672f2
+=
+E2E_suite.xml,f\a\fa806f5d740e7b6131e1d2f69b39dcdae59420a7
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
