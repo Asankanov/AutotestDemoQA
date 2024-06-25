@@ -1,7 +1,5 @@
 
-g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8Â·êÕ‚2J$de86824e-679c-4cd4-9aa5-ee67715358e1
-g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8Â·êÕ‚2J$2ba2ac3b-120a-4ff4-b5aa-4587f7e18ca2
-Œ
-java:S1128"IRemove this unused import 'org.openqa.selenium.support.ui.WebDriverWait'.(¥÷ó8í‰¿¢ƒ2J$cd15a4fc-b022-4fd5-a31b-d788eaaeffb0
+A
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8Î·Âö„2
+A
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8Î·Âö„2
