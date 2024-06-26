@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class PracticeFormTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"Regression", "1501"}, description = "verify practice form test")
     public void PracticeFormTest() throws InterruptedException {
         driver.get("https://demoqa.com/automation-practice-form");
         PracticeFormEntity practiceFormEntity = randomUtils.generateRandomPracticeFormEntity();
