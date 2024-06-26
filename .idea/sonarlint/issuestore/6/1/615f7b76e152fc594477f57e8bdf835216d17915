@@ -1,8 +1,5 @@
 
-~
-java:S1104"\Make practiceFormPage a static final constant or non-public and provide accessors if needed.(Ò”ôŒúÿÿÿÿ8¶†¥ùƒ2
-u
-java:S1104"XMake webTablePage a static final constant or non-public and provide accessors if needed.(œØ®â8¶†¥ùƒ2
-X	java:S125"<This block of commented-out lines of code should be removed.(ËäÅø8¹†¥ùƒ2
-a
-java:S1128"?Remove this unused import 'org.testng.annotations.BeforeClass'.(Ó¨Þ¨ûÿÿÿÿ8º†¥ùƒ2
+¤
+java:S1104"\Make practiceFormPage a static final constant or non-public and provide accessors if needed.(Ò”ôŒúÿÿÿÿ8¶†¥ùƒ2J$81a1dc68-526c-4784-b01d-b6d56b6f5823
+›
+java:S1104"XMake webTablePage a static final constant or non-public and provide accessors if needed.(œØ®â8¶†¥ùƒ2J$19a8b56b-d39b-41c6-8e20-4bc4bf37624c

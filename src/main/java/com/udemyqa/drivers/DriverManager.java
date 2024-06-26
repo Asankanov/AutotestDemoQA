@@ -12,9 +12,9 @@ public class DriverManager {
                 case "chrome":
                     driver = ChromeWebDriver.loadChromeDriver();
                     break;
-                case "firefox":
-                    // TODO add drivers for firefox
-                    break;
+//                case "firefox":
+//                    // TODO add drivers for firefox
+//                    break;
 
                 default:
                     throw new IllegalArgumentException("You provided wrong driver name");
