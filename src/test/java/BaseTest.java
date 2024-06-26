@@ -37,7 +37,7 @@ public class BaseTest {
 
     protected WebTablePage webTablePage;
 
-//    protected DemoQAPages demoQAPages;
+    protected DemoQAPages demoQAPages;
 
     //digitalNomads
     protected DigitalNomadsLessonsPage digitalNomadsLessonsPage;
@@ -72,8 +72,10 @@ public class BaseTest {
 
         webTablePage = new WebTablePage();
 
-//        demoQAPages = new DemoQAPages();
 
+        demoQAPages = new DemoQAPages();
+
+        demoQAPages.setUp();
 
 
         //digitalNomads

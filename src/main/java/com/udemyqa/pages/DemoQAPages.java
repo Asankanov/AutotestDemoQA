@@ -11,8 +11,12 @@ import lombok.*;
 
 public class DemoQAPages {
 
-    public PracticeFormPage practiceFormPage = new PracticeFormPage();
-    public WebTablePage webTablePage = new WebTablePage();
+    public PracticeFormPage practiceFormPage;
+    public WebTablePage webTablePage;
 
+    public void setUp() {
+        practiceFormPage = new PracticeFormPage();
+        webTablePage = new WebTablePage();
+    }
 }
 

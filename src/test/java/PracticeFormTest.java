@@ -13,7 +13,7 @@ public class PracticeFormTest extends BaseTest {
     public void PracticeFormTest() throws InterruptedException {
         driver.get("https://demoqa.com/automation-practice-form");
         PracticeFormEntity practiceFormEntity = randomUtils.generateRandomPracticeFormEntity();
-        practiceFormPage.fillUpPracticeFormPage(practiceFormEntity);
+        demoQAPages.getPracticeFormPage().fillUpPracticeFormPage(practiceFormEntity);
                 Thread.sleep(10000);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // Ждем максимум 10 секунд
