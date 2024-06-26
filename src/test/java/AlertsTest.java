@@ -2,7 +2,7 @@ import org.testng.annotations.Test;
 
 public class AlertsTest extends BaseTest {
 
-    @Test
+    @Test()
     void alertTest() throws InterruptedException {
         driver.get("https://demoqa.com/alerts");
         Thread.sleep(1000);

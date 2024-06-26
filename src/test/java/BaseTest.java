@@ -19,28 +19,28 @@ public class BaseTest {
 
     protected RandomUtils randomUtils;
 
-    protected AlertsPage alertsPage;
+//    protected AlertsPage alertsPage;
 
-    protected AlertHelper alertHelper;
+//    protected AlertHelper alertHelper;
 
-    protected BrowserHelper browserHelper;
+//    protected BrowserHelper browserHelper;
 
-    protected ButtonsPage buttonsPage;
+//    protected ButtonsPage buttonsPage;
 
     protected MenuPage menuPage;
 
     protected ProgressBarPage progressBarPage;
 
-    protected SelectPage selectPage;
+//    protected SelectPage selectPage;
 
-    protected DropdownHelper dropdownHelper;
+//    protected DropdownHelper dropdownHelper;
 
-    protected WebTablePage webTablePage;
+//    protected WebTablePage webTablePage;
 
     protected DemoQAPages demoQAPages;
 
     //digitalNomads
-    protected DigitalNomadsLessonsPage digitalNomadsLessonsPage;
+//    protected DigitalNomadsLessonsPage digitalNomadsLessonsPage;
 
 
     @BeforeClass(alwaysRun = true)
@@ -54,23 +54,23 @@ public class BaseTest {
 
         randomUtils = new RandomUtils();
 
-        alertsPage = new AlertsPage();
-
-        alertHelper = new AlertHelper(driver);
-
-        browserHelper = new BrowserHelper(driver);
-
-        buttonsPage = new ButtonsPage();
+//        alertsPage = new AlertsPage();
+//
+//        alertHelper = new AlertHelper(driver);
+//
+//        browserHelper = new BrowserHelper(driver);
+//
+//        buttonsPage = new ButtonsPage();
 
         menuPage = new MenuPage();
 
         progressBarPage = new ProgressBarPage();
 
-        selectPage = new SelectPage(driver);
-
-        dropdownHelper = new DropdownHelper(driver);
-
-        webTablePage = new WebTablePage();
+//        selectPage = new SelectPage(driver);
+//
+//        dropdownHelper = new DropdownHelper(driver);
+//
+//        webTablePage = new WebTablePage();
 
 
         demoQAPages = new DemoQAPages();
@@ -79,7 +79,7 @@ public class BaseTest {
 
 
         //digitalNomads
-        digitalNomadsLessonsPage = new DigitalNomadsLessonsPage();
+//        digitalNomadsLessonsPage = new DigitalNomadsLessonsPage();
 
     }
 

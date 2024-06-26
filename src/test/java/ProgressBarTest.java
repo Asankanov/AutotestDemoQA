@@ -10,7 +10,7 @@ import java.time.Duration;
 
 public class ProgressBarTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"E2E suite","45"},description = "ProgressBarTest")
     void progressBarTest() throws InterruptedException {
 
         // Открытие целевого URL

@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 public class MenuPageTest extends BaseTest{
 
-    @Test (groups = {"Smoke", "UI", "1410"}, description = "verify is all field is filled up")
+    @Test (groups = {"Smoke",  "1410"}, description = "MenuPageTest")
     public void menuPageTest() throws InterruptedException {
         browserHelper.open("https://demoqa.com/menu");
 

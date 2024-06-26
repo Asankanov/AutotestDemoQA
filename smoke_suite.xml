@@ -5,7 +5,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/kutma/IdeaProjects/AutotestDemoQA">
         <classes>
             <class name="MenuPageTest"></class>
-            <class name="ButtonsTest"></class>
+
 
         </classes>
 <!--        <packages>-->
