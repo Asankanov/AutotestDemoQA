@@ -7,17 +7,23 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
+import static com.udemyqa.utils.ConfigReader.getValue;
+
 public class ChromeWebDriver {
     public static WebDriver loadChromeDriver(){
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--remote-debugging-port=9222");
-        WebDriver driver = new ChromeDriver(options); // передача options в ChromeDriver
+        options.addArguments("--remote=allow-Origins=*");//передаем какие то настройки когда будем запускать через удалленой сервис ->
+        options.addArguments("--disable-extensions");// -> и даем разрешения
+        options.addArguments("--window-size-1920,1080");
+        options.addArguments("--no-sandbox"); //относится ccd
+        if (Boolean.parseBoolean(getValue("headless"))) { // обычный стринг запарсили в буллиан если TRUE (add.properties указываем) а если укажем в if(headless) браузер не будет открываться но тест начинает бегать
+            options.addArguments("--headless");
+        }
+        WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         return driver;
     }
+
 }
